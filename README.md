@@ -4,6 +4,6 @@ non iterative functional implementation of the higher oder python functions - ma
 The following are the functions :
 - `fun_map(func, list1, list2, ...)`
 - `fun_filter(func, list)`
-- `fun_(func, list)`
+- `fun_(func, list, initval)`
 
 

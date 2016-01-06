@@ -7,7 +7,7 @@ def create_tuple(args, length):
         try:
             return (args[0][length],) + create_tuple(args[1:], length)
         except(IndexError):
-            return (0,) + create_tuple(args[1:], length)
+            return (None,) + create_tuple(args[1:], length)
 
 def create_list(args, length):
     ''' creates a list of tuples from the tuple of lists in such manner that 
